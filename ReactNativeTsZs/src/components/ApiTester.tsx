@@ -1,12 +1,5 @@
 import React from 'react';
-import {
-  Button,
-  Image,
-  StyleSheet,
-  Text,
-  TouchableOpacity,
-  View,
-} from 'react-native';
+import {Image, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
 
 const ApiTester = (): JSX.Element => {
   const [textFromApi, setTextFromApi] = React.useState<string>('Wating ...');
