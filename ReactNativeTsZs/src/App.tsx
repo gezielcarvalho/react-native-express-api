@@ -15,7 +15,6 @@ import {
   View,
 } from 'react-native';
 
-import {Colors} from 'react-native/Libraries/NewAppScreen';
 import ApiTester from './components/ApiTester';
 
 function App(): JSX.Element {
@@ -36,6 +35,5 @@ const styles = StyleSheet.create({
     flexGrow: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#a00',
   },
 });
