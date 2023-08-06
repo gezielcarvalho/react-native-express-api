@@ -1,0 +1,3 @@
+# Onboarding Monorepo
+
+## Getting Started
