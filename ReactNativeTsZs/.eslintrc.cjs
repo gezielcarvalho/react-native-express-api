@@ -1,4 +1,4 @@
 module.exports = {
-  root: '',
+  root: true,
   extends: '@react-native',
 };
