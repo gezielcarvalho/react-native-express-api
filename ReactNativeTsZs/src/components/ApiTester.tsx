@@ -2,7 +2,7 @@ import React from 'react';
 import {Image, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
 
 const ApiTester = (): JSX.Element => {
-  const [textFromApi, setTextFromApi] = React.useState<string>('Wating ...');
+  const [textFromApi, setTextFromApi] = React.useState<string>('Waiting ...');
 
   const loadFromApi = () => {
     const randonNumber = Math.floor(Math.random() * 10);
